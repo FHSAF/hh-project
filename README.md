@@ -15,7 +15,7 @@ list the running docker containers
 - docker ps
 
 By this command you will access to the cli of the wppdjango service container
-- docker exec -it webpageparser_wppdjango_1 bash
+- docker exec -it [name of server service container] bash
 
 There you can run django project commands like
 - python manage.py migrate
@@ -23,4 +23,4 @@ There you can run django project commands like
 - python manage.py createsuperuser
 
 To enter the cli of pgqldb service container
-- docker exec -it webpageparser_pgqldb_1 psql -U postgres
+- docker exec -it [name of database service container] psql -U postgres
