@@ -17,6 +17,7 @@ list the running docker containers
 
 By this command you will access to the cli of the wppdjango service container
 - docker exec -it webpageparser_wppdjango_1 bash
+
 There you can run django project commands like
 - python manage.py migrate
 - python manage.py makemigrations
