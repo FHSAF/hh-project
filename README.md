@@ -11,7 +11,6 @@ simply copy and paste the url bellow on your browser
 
 the project will show up 
 
-some helpful commands
 list the running docker containers
 - docker ps
 
